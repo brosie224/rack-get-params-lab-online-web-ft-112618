@@ -26,8 +26,6 @@ class Application
       else
         resp.write "Couldn't find #{add_item}."
       end
-
-
     else
       resp.write "Path Not Found"
     end
